@@ -26,23 +26,5 @@ namespace BasicCRUD.Controllers
             Users user = userContext.Users.Single(x => x.Id == id);
             return View(user);
         }
-
-
-
-
-
-
-
-
-
-
-        //[HttpPost]
-        //public ActionResult Create_NewUser(User user)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-
-        //    }
-        //}
     }
 }
