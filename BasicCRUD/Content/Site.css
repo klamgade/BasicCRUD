@@ -1,24 +1,74 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+header {
+    font-weight: bold;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.headerlogo {
+    float:left;
+    margin-right: 10px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.headerlogo > img {
+    height:100px;
+    width: 100px;
+}
+
+#mainHeader{
+    height:80px;
+}
+
+.searchbox {
+    float:right;
+    padding: 5px;
+    margin: 10px 5px;
+    width: 200px;
+    height: 30px;
+    height: 30px;
+}
+
+#events{
+    float:right;
+    width:30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#events > header {
+    font-weight: bold;
+    margin-left: 10px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+footer {
+    clear: both;
+    background-color: dimgrey;
+    padding: 5px ;
+    margin: 20px 0px 20px;
+}
+
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.productarticle{
+    display: inline-block;
+    height:150px;
+    width:150px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+img {
+    height: 150px;
+    width: 150px;
 }

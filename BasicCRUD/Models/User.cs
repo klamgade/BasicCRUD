@@ -7,7 +7,7 @@ using System.Web;
 namespace BasicCRUD.Models
 {
     [Table("User")]
-    public class Users
+    public class User
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

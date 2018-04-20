@@ -8,6 +8,7 @@ namespace BasicCRUD.Models
 {
     public class UserContext: DbContext
     {
-        public DbSet<Users> Users { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Department> Departments { get; set; }
     }
 }
